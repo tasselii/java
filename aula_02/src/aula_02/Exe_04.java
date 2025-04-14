@@ -20,7 +20,7 @@ public class Exe_04 {
 			System.out.print("Digite o numero 4: ");
 			float numero_04 = leia.nextFloat();
 			
-			float calculo = (numero_01 * numero_02)- (numero_03 * numero_04);
+			float calculo = (numero_01 * numero_02) - (numero_03 * numero_04);
 			
 			System.out.printf("Diferença: %.2f", calculo);
 			

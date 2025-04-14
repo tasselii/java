@@ -22,7 +22,7 @@ public class Exe_03 {
 		
 			double salarioLiquido = salario + adicionalNoturno +  (horasExtras * 5) - descontos;
 		
-		System.out.printf("Salário Líquido: %.2f", salarioLiquido);
-		
+		System.out.printf("\nSalário Líquido: %.2f", salarioLiquido);
+				
 	}
 }
