@@ -26,17 +26,11 @@ public class Exe_02 {
 
     		float media = (nota_01 + nota_02 + nota_03 + nota_04) / 4;
 		
-			if (media >= 6) {
-				System.out.printf("\nAprovado com média: %.0f\n", media);
-
-			} else if (media < 5)
-				System.out.printf("\nReprovado com média: %.0f\n", media);
-			else {
-				System.out.printf("\nRecuperação com média: %.0f\n - Verificar com a professora\n", media);
-			}
+    		String mensagem = media >= 5 ? "aprovado" : "reprovado";
     		
 					System.out.println("\nAluno: " + nome);
 					System.out.printf("\nMédia final: %.1f", media);
+					System.out.println("\nO aluno foi " + mensagem);
 					
 	}
 }

@@ -22,7 +22,7 @@ public class Exe_04 {
 			
 			float calculo = (numero_01 * numero_02) - (numero_03 * numero_04);
 			
-			System.out.printf("Diferença: %.2f", calculo);
+			System.out.printf("Diferença: %.1f", calculo);
 			
 	}
 }
