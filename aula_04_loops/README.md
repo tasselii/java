@@ -27,10 +27,6 @@ public class Exemplo1_1 {
 }
 ```
 
-# Tipos de Laços de Repetição
-
-Existem três tipos principais de laços de repetição em Java: **For**, **While**, e **Do...While**. Cada um desses laços possui características específicas e pode ser usado em diferentes cenários.
-
 ## 2. While
 
 O laço `while` é usado quando o número de repetições não é necessariamente conhecido e depende de uma condição. O laço continua a ser executado enquanto a condição for verdadeira.
