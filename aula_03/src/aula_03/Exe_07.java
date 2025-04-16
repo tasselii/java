@@ -8,16 +8,17 @@ public class Exe_07 {
         
         Scanner leia = new Scanner(System.in);
         
-        double valorTotal, resultado;
+        double resultado;
         int opcao;
         
-        System.out.println("Digite o 1º número:");
-        double num1 = leia.nextInt();
-        
-        System.out.println("Digite o 2º número:");
-        double num2 = leia.nextInt();
         
         while (true) {
+        	
+        	 System.out.println("Digite o 1º número: ");
+             double num1 = leia.nextInt();
+             
+             System.out.println("Digite o 2º número: ");
+             double num2 = leia.nextInt();
             
         	System.out.println("\n");
             System.out.println("╔═══════════════════════════════╗");
@@ -35,7 +36,7 @@ public class Exe_07 {
             opcao = leia.nextInt();
             
             if (opcao == 5) {
-                System.out.println("Saindo... Até mais!");
+                System.out.println("\nSaindo... Até mais!");
                 leia.close();
                 break;
             }
@@ -47,7 +48,7 @@ public class Exe_07 {
                 System.out.println("##################################");
                 System.out.println("#         OPÇÃO INVÁLIDA!        #");
                 System.out.println("#   Por favor, tente novamente   #");
-                System.out.println("##################################");
+                System.out.println("##################################\n");
                 continue;
             }
            
@@ -55,20 +56,29 @@ public class Exe_07 {
             switch(opcao) {
                 case 1:
                     resultado = num1 + num2;
-                    System.out.printf("%.1f + %.1f = %.1f ", num1, num2, resultado);
+                    System.out.printf("\n%.1f + %.1f = %.1f \n", num1, num2, resultado);
+                    System.out.println();
                     break;
                 case 2:
                 	resultado = num1 - num2;
-                    System.out.printf("%.1f - %.1f = %.1f ", num1, num2, resultado);
+                    System.out.printf("\n%.1f - %.1f = %.1f \n", num1, num2, resultado);
+                    System.out.println();
                     break;
                 case 3:
                 	resultado = num1 * num2;
-                    System.out.printf("%.1f * %.1f = %.1f ", num1, num2, resultado);
+                    System.out.printf("\n%.1f * %.1f = %.1f \n", num1, num2, resultado);
+                    System.out.println();
                     break;
                 case 4:
+                	if (num2 == 0) {
+                        System.out.println("\nErro: divisão por zero não é permitida!\n");
+                        System.out.println();
+                    } else {
                 	resultado = num1 / num2;
-                    System.out.printf("%.1f / %.1f = %.1f ", num1, num2, resultado);
+                    System.out.printf("\n%.1f / %.1f = %.1f \n", num1, num2, resultado);
+                    System.out.println();
                     break;
+                    }
             	} 	
           }
     }
