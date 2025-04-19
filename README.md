@@ -10,7 +10,6 @@
 
 ------
 
-<br />
 
 ## 1. Sobre o Repositório
 
