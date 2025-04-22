@@ -1,4 +1,4 @@
-# Bootcamp Java Full Stack - Generation Brasil
+ # Bootcamp Java Full Stack - Generation Brasil
 
 <br />
 
@@ -57,6 +57,15 @@ O objetivo é consolidar os conhecimentos adquiridos ao longo das aulas, utiliza
 
 📂 [Acessar exercícios](https://github.com/tasselii/java/tree/main/aula-arrays)
  📝 Laços de Repetição `array`, `vetor` e `matriz`.
+
+------
+
+### ✔️ Aula 06 
+
+📂 [Acessar exercícios](https://github.com/tasselii/java/tree/main/aula-collections)
+ 📝 Laços de Repetição `list`, `set`.
+
+------
 
 <br />
 
