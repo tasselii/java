@@ -60,7 +60,7 @@ O objetivo é consolidar os conhecimentos adquiridos ao longo das aulas, utiliza
 
 ------
 
-### ✔️ Aula 06 
+### ✔️ Aula 06 - Collections (Coleções)
 
 📂 [Acessar exercícios](https://github.com/tasselii/java/tree/main/aula-collections)
  📝 Laços de Repetição `list`, `set`.
