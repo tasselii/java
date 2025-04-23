@@ -10,6 +10,9 @@ public class Exe_01 {
 
 		Scanner scan = new Scanner(System.in);
 
+		final String YELLOW = "\u001B[33m";
+		final String RESET = "\u001B[0m";
+
 		int choice = 0;
 
 		Queue<String> line = new LinkedList<String>();
@@ -19,27 +22,27 @@ public class Exe_01 {
 			System.out.println("\n");
 			System.out.println("╔═════════════════════════════════════╗");
 			System.out.println("║                 MENU                ║");
-			System.out.println("╠═════════════════════════════════════╣");;
+			System.out.println("╠═════════════════════════════════════╣");			
 			System.out.println("║   1    │ Adicionar Clientes na Fila ║");
 			System.out.println("║   2    │ Listar todos os Clientes   ║");
 			System.out.println("║   3    │ Retirar Clientes da Fila   ║");
 			System.out.println("║        │                            ║");
 			System.out.println("║   0    │ Sair                       ║");
-			System.out.println("╠═════════════════════════════════════╣");;
+			System.out.println("╠═════════════════════════════════════╣");			
 			System.out.println("║      Entre com a opção desejada     ║");
 			System.out.println("╚═════════════════════════════════════╝\n");
-			
+
 			String input = scan.next();
-			
+
 			if (!input.matches("[0-3]")) {
-		        System.out.println("\n⚠️ Opção inválida. Por favor, escolha uma opção do menu.");
-		        continue;
-		    }
+				System.out.println("\n⚠️ Opção inválida. Por favor, escolha uma opção do menu.");
+				continue;
+			}
+
+			choice = Integer.parseInt(input);
+
+			scan.nextLine();
 			
-			choice = Integer.parseInt(input); 
-
-			scan.nextLine(); 
-
 			switch (choice) {
 			case 1:
 				while (true) {
@@ -57,7 +60,7 @@ public class Exe_01 {
 						}
 						System.out.println("\nCliente Adicionado!");
 						break;
-
+						
 					} else {
 						System.out.println("\nNome inválido. Tente novamente.");
 					}
@@ -73,14 +76,21 @@ public class Exe_01 {
 			case 3:
 				if (!line.isEmpty()) {
 					System.out.println("\nFila: \n");
-					
-					String chosenName = line.poll();
-					
+
+					String choseName = line.poll();
+
 					for (var client : line) {
 						System.out.println(client);
 					}
+					char lastLetter = choseName.charAt(choseName.length() - 1);
 
-					System.out.printf("\nCliente %s está sendo Chamado! ", chosenName.toUpperCase());
+					if (lastLetter == 'o') {
+						System.out.printf("\nO Cliente %s%s%s está sendo Chamado! ", YELLOW, choseName.toUpperCase(),
+								RESET);
+					} else if (lastLetter == 'a') {
+						System.out.printf("\nA Cliente %s%s%s está sendo Chamada! ", YELLOW, choseName.toUpperCase(),
+								RESET);
+					}
 
 				} else {
 					System.out.println("\nA Fila está vazia!");
@@ -96,7 +106,7 @@ public class Exe_01 {
 				System.out.println("\n⚠️ Opção inválida. Por favor, escolha uma opção do menu.");
 				break;
 			}
-			
+
 		}
 	}
 }
