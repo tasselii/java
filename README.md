@@ -25,47 +25,16 @@ O objetivo é consolidar os conhecimentos adquiridos ao longo das aulas, utiliza
 
 <br />
 
-### ✔️ Aula 01 – Introdução a Linguagem Java
-
-📂 [Acessar exercícios](https://github.com/tasselii/java/tree/main/helloworld)
- 📝 Primeiros passos com Java, estrutura básica de um programa e saída de dados no console.
-
-------
-
-### ✔️ Aula 02 – Variáveis, Constantes e Operadores
-
-📂 [Acessar exercícios](https://github.com/tasselii/java/tree/main/aula-variaveis)
- 📝 Declaração de variáveis, uso de constantes, entrada/saída de dados com `Scanner`, operadores aritméticos, unários e atribuição.
-
-------
-
-### ✔️ Aula 03 – Operadores Lógicos e Laços Condicionais
-
-📂 [Acessar exercícios](https://github.com/tasselii/java/tree/main/aula-lacosCondicionais)
- 📝 Estruturas condicionais com `if`, `else if`, `else` e `Switch/Case`, operadores relacionais e lógicos.
-
-------
-
-### ✔️ Aula 04 – Laços de Repetição
-
-📂 [Acessar exercícios](https://github.com/tasselii/java/tree/main/aula-loops)
- 📝 Laços de Repetição `for`, `while` e `do-while`.
-
-------
-
-### ✔️ Aula 05 – Arrays, Vetores, Matrizes
-
-📂 [Acessar exercícios](https://github.com/tasselii/java/tree/main/aula-arrays)
- 📝 Laços de Repetição `array`, `vetor` e `matriz`.
-
-------
-
-### ✔️ Aula 06 - Collections (Coleções)
-
-📂 [Acessar exercícios](https://github.com/tasselii/java/tree/main/aula-collections)
- 📝 Collections com `list`, `set`.
-
-------
+| Aula    | Tema                   | Acesso                                                       | Descrição                                             |
+| ------- | ---------------------- | ------------------------------------------------------------ | ----------------------------------------------------- |
+| Aula 01 | Introdução ao Java     | [Abrir](https://github.com/tasselii/java/tree/main/helloworld) | Primeiros passos, estrutura básica e saída de dados   |
+| Aula 02 | Variáveis e Operadores | [Abrir](https://github.com/tasselii/java/tree/main/aula-variaveis) | Variáveis, constantes, `Scanner`, operadores diversos |
+| Aula 03 | Condicionais e Lógicos | [Abrir](https://github.com/tasselii/java/tree/main/aula-lacosCondicionais) | `if/else`, `switch`, operadores relacionais e lógicos |
+| Aula 04 | Laços de Repetição     | [Abrir](https://github.com/tasselii/java/tree/main/aula-loops) | Estruturas `for`, `while` e `do-while`                |
+| Aula 05 | Arrays                 | [Abrir](https://github.com/tasselii/java/tree/main/aula-arrays) | Vetores e matrizes                                    |
+| Aula 06 | Collections (Parte 1)  | [Abrir](https://github.com/tasselii/java/tree/main/aula-collections) | Trabalhando com `ArrayList` e `Set`                   |
+| Aula 07 | Collections (Parte 2)  | [Abrir]() | Uso de `Queue` e `Stack`                              |
+| Aula 08 | Métodos                | [Abrir]() | Criação de métodos com e sem retorno                  |
 
 <br />
 
