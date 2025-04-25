@@ -44,7 +44,7 @@ O objetivo é consolidar os conhecimentos adquiridos ao longo das aulas, utiliza
 
 Durante o desenvolvimento dos exercícios, foi utilizada a seguinte configuração de ambiente:
 
-- **Java JDK:** 17  
+- **Java JDK:** 17 (versão LTS – Long-Term Support) 
 - **IDE:** Eclipse IDE for Java Developers (ou Spring Tool Suite – STS)  
 - **Sistema Operacional:** Windows 10/11 (também testado em Linux e macOS)
 
