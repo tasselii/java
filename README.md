@@ -19,12 +19,13 @@ O objetivo é consolidar os conhecimentos adquiridos ao longo das aulas, utiliza
 
 ## 🧠 Habilidades Desenvolvidas
 
-- Java (fundamentos, orientação a objetos, collections)
-- Eclipse IDE e STS
-- Git & GitHub
-- Lógica de programação
-- Leitura e escrita de código limpo
-- Trabalho em equipe e comunicação em projetos técnicos
+- Conceitos básicos de Java e Programação Orientada a Objetos  
+- Uso de estruturas de dados com listas, filas e pilhas (Collections)  
+- Criação e organização de métodos reutilizáveis  
+- Desenvolvimento em ambiente profissional com Eclipse e STS  
+- Versionamento de código com Git e GitHub  
+- Escrita de código limpo e lógico  
+- Trabalho em equipe e comunicação técnica em projetos
 
 <br />
 
@@ -62,7 +63,10 @@ Durante o desenvolvimento dos exercícios, foi utilizada a seguinte configuraç�
 | Aula 06 | Collections (Parte 1)  | [Abrir](https://github.com/tasselii/java/tree/main/aula-collections) | Trabalhando com `ArrayList` e `Set`                   |
 | Aula 07 | Collections (Parte 2)  | [Abrir](https://github.com/tasselii/java/tree/main/aula-collections2) | Uso de `Queue` e `Stack`                              |
 | Aula 08 | Métodos                | [Abrir](https://github.com/tasselii/java/tree/main/aula-metodos) | Criação de métodos com e sem retorno                  |
-
+| Aula 09 | Interface  		   | [Abrir](https://github.com/tasselii/java/tree/main/aula_interface) | Criação e uso de interfaces em Java                      |
+| Aula 10 | Exceptions             | [Abrir](https://github.com/tasselii/java/tree/main/aula_exceptions)     | Tratamento de exceções com `try`, `catch` e `throw`     |
+| Aula 11 | Lambdas                | [Abrir](https://github.com/tasselii/java/tree/main/aula_lambdas) | Introdução a expressões lambda                           |
+| Aula 12 | Stream                 | [Abrir](https://github.com/tasselii/java/tree/main/aula_stream)     | Uso da API Stream para operações funcionais com dados    |
 <br />
 
 ## 📬 Contato
